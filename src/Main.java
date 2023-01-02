@@ -31,5 +31,13 @@ public class Main {
 
     public static void task_3(){
         System.out.println("\nЗадание 3");
+
+        int speed = 61;
+
+        if (speed <= 60) {
+            System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
+        } else {
+            System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
+        }
     }
 }
